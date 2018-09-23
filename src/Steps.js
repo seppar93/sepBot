@@ -1,6 +1,6 @@
 import React from "react";
 
-const steps = {
+const steps = {[
   {
     id: "1",
     message: "Hello I'm SepBot what would you like to learn about Sepehr Parirokh? ",
@@ -65,9 +65,20 @@ const steps = {
   {
   id: "response-choice-loop",
   options: [
-    { value: 1, label: "yes", trigger: ""},
-    { value: 2, label: "no", trigger: "" },
-
-  ]
+      { value: 1, label: "yes", trigger: "start-at-2"},
+      { value: 2, label: "no", trigger: "end-message" },
+    ],
+  },
+  {
+    id: "start-at-2",
+    message: "what would you look at now",
+    trigger: "2"
+  },
+  {
+    id: "end-message",
+    message: "Thank you for your time. Sepehr hopes to hear from you :)",
+    end: true,
   }
+  ]}
+
 };
