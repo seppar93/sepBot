@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import theme from "./theme.js";
-import Steps from "./Steps.js";
+import steps from "../Steps.js";
 
 class chat_bot extends Component {
   render() {
     return (
       <div>
-        <theme Steps={Steps} />
+        <theme steps={steps} />
       </div>
     );
   }
