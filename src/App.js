@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import chat_bot from "./component/chat_bot.js";
+import CB from "./component/chat_bot.js";
+// import { ThemeProvider } from "styled-components";
 import "./App.css";
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
           <h1>This is sepBot here to show you more about Sepehr</h1>
         </div>
         <div className="theme">
-          <chat_bot />
+          <CB />
         </div>
       </div>
     );

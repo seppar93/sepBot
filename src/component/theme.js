@@ -4,13 +4,45 @@ import ChatBot from "react-simple-chatbot";
 
 const theme = {
   background: "#f5f8fb",
-  fontFamily: "Arial",
-  headerBgColor: "#7F377C",
+  fontFamily: "Helvetica Neue",
+  headerBgColor: "##37437f",
   headerFontColor: "#fff",
   headerFontSize: "15px",
-  botBubbleColor: "#7F377C",
+  botBubbleColor: "#37437f",
   botFontColor: "#fff",
-  userBubbleColor: "#F9969F",
-  userFontColor: "#4a4a4a",
-  textAlign: "center"
+  userBubbleColor: "#fff",
+  userFontColor: "#4a4a4a"
 };
+
+const hcstyle = {
+  background: "#37437f",
+  width: "350px",
+  height: "56px",
+
+  overflow: "hidden"
+};
+
+const HC = props => {
+  return (
+    <div style={hcstyle}>
+      <h2>{props.headerTitle}</h2>
+    </div>
+  );
+};
+
+const MainTheme = props => {
+  return (
+    <div>
+      <ThemeProvider theme={theme}>
+        <ChatBot
+          steps={props.steps}
+          Registration={props.Registration}
+          handleEnd={props.handleEnd}
+          headerComponent={<HC headerTitle={"sepBot"} />}
+        />
+      </ThemeProvider>
+    </div>
+  );
+};
+
+export default MainTheme;
