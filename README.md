@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## sepBot
 
 built with [react-simple-chatbot](https://lucasbassetti.com.br/react-simple-chatbot/) allowing me to display my work to anyone that wants to see it in a strucutred and aesthetically pleasing manner. The bot will guide you though my projects.
@@ -10,12 +9,15 @@ I wanted to be able to display my work and information to everyone in a new fash
 ## Build status
 
 current status:
-[![Build Status]]
-[![Windows Build Status]]
+
+will be added.
+
+<!-- [![Build Status]]
+[![Windows Build Status]] -->
 
 ## Code style
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)]
+[js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)]
 
 ## Screenshots
 
@@ -27,7 +29,3 @@ will be added.
 
 - [react-simple-chatbot](https://lucasbassetti.com.br/react-simple-chatbot/)
 - [React](https://reactjs.org/)
-=======
-# sepBot
-A chat bot that can deliver all my information to anyone wishing to look at my current projects resume etc.
->>>>>>> ced0f56732eee06d934daf2d95d9355e479fb3cb
