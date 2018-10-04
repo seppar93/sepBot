@@ -59,7 +59,7 @@ const steps = {[
   },
   {
     id: "loop-message",
-    message: "Thank you for taking a look at Sepehr. Wpild you like to look at something else",
+    message: "Thank you for taking a look at Sepehr. Would you like to look at something else?",
     trigger: "response-choice-loop",
   },
   {
