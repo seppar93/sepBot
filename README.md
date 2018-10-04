@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## sepBot
 
 built with [react-simple-chatbot](https://lucasbassetti.com.br/react-simple-chatbot/) allowing me to display my work to anyone that wants to see it in a strucutred and aesthetically pleasing manner. The bot will guide you though my projects.
@@ -26,3 +27,7 @@ will be added.
 
 - [react-simple-chatbot](https://lucasbassetti.com.br/react-simple-chatbot/)
 - [React](https://reactjs.org/)
+=======
+# sepBot
+A chat bot that can deliver all my information to anyone wishing to look at my current projects resume etc.
+>>>>>>> ced0f56732eee06d934daf2d95d9355e479fb3cb
