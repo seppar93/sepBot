@@ -1,4 +1,4 @@
-App {
+.App {
   text-align: center;
 }
 
@@ -45,4 +45,8 @@ body {
 h1,
 h2 {
   color: #fff;
+}
+
+.theme {
+  text-align: -webkit-center;
 }
