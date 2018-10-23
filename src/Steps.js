@@ -18,7 +18,8 @@ const steps = [
     options: [
       { value: 1, label: "Github", trigger: "github" },
       { value: 2, label: "LinkedIn", trigger: "linkedin" },
-      { value: 3, label: "resume", trigger: "resume" }
+      { value: 3, label: "Resume", trigger: "resume" },
+      { value: 4, label: "Projects", trigger: "projects" }
     ]
   },
   {
@@ -37,7 +38,8 @@ const steps = [
     options: [
       { value: 1, label: "visualizeMe", trigger: "project1" },
       { value: 2, label: "OneDot-web-app", trigger: "project2" },
-      { value: 3, label: "chatFlight", trigger: "project3" }
+      { value: 3, label: "chatFlight", trigger: "project3" },
+      { value: 4, label: "Exist", trigger: "start-at-2" }
     ]
   },
   {
