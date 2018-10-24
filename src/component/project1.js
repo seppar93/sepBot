@@ -1,6 +1,6 @@
 import React from "react";
 
-const visualizeMe = () => {
+const VisualizeMe = () => {
   return (
     <div>
       <a href="https://visualize-myself.herokuapp.com/">visualizeMe</a>
@@ -8,4 +8,4 @@ const visualizeMe = () => {
   );
 };
 
-export default visualizeMe;
+export default VisualizeMe;

@@ -1,11 +1,11 @@
 import React from "react";
 
-const chatFlight = () => {
+const Tetris = () => {
   return (
     <div>
-      <a href="https://chatflight.herokuapp.com/">chatFlight</a>
+      <a href="https://codepen.io/sep/pen/RgEwRd">Tetris</a>
     </div>
   );
 };
 
-export default chatFlight;
+export default Tetris;

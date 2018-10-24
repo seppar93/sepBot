@@ -1,8 +1,8 @@
 import React from "react";
 import Github from "./component/Github.js";
 import Linkedin from "./component/Linkedin.js";
-import visualizeMe from "./component/project1.js";
-import chatFlight from "./component/project2.js";
+import VisualizeMe from "./component/project1.js";
+import Tetris from "./component/project2.js";
 import Crud from "./component/project3.js";
 import Resume from "./component/Resume.js";
 
@@ -25,47 +25,55 @@ const steps = [
   {
     id: "github",
     component: <Github />,
-    trigger: "project-message"
+    trigger: "git-hub-message"
   },
   {
-    id: "project-message",
-    message:
-      "Here is a link to Github. Here are some links to current projects.",
-    trigger: "projects"
+    id: "git-hub-message",
+    message: "Here is a link to Sepehr's Github.",
+    trigger: "loop-message"
   },
   {
     id: "projects",
     options: [
       { value: 1, label: "visualizeMe", trigger: "project1" },
-      { value: 2, label: "OneDot-web-app", trigger: "project2" },
-      { value: 3, label: "chatFlight", trigger: "project3" },
-      { value: 4, label: "Exist", trigger: "start-at-2" }
+      { value: 2, label: "Tetris", trigger: "project2" },
+      { value: 3, label: "CRUD app", trigger: "project3" }
     ]
   },
   {
     id: "project1",
-    component: <visualizeMe />,
-    trigger: "2"
+    component: <VisualizeMe />,
+    trigger: "loop-message"
   },
   {
     id: "project2",
-    component: <chatFlight />,
-    trigger: "2"
+    component: <Tetris />,
+    trigger: "loop-message"
   },
   {
     id: "project3",
     component: <Crud />,
-    trigger: "2"
+    trigger: "loop-message"
   },
   {
     id: "resume",
     component: <Resume />,
-    trigger: "2"
+    trigger: "resume-message"
+  },
+  {
+    id: "resume-message",
+    message: "Here is a link to Sepehr's resume",
+    trigger: "loop-message"
   },
   {
     id: "linkedin",
     component: <Linkedin />,
-    trigger: "2"
+    trigger: "linkedin-message"
+  },
+  {
+    id: "linkedin-message",
+    message: "Here is a link to Sepehr's LinkedIn",
+    trigger: "loop-message"
   },
   {
     id: "loop-message",
@@ -82,7 +90,7 @@ const steps = [
   },
   {
     id: "start-at-2",
-    message: "what would you look at now",
+    message: "What would you look at now?",
     trigger: "2"
   },
   {
